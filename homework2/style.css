@@ -1,0 +1,46 @@
+body{
+    font-family: 'Microsoft JhengHei';
+}
+h1{
+    color: blue;
+}
+h2{
+    font-weight: 300;
+    border-left: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+    border-bottom-left-radius: 5px;
+}
+.connection{
+    color: green;
+}
+.connection2{
+    color: red;
+    text-decoration: underline;
+}
+.connection2:hover{
+    color: blue;
+}
+.connection3{
+    text-decoration: underline;
+}
+.connection3:active{
+    color: orange;
+}
+.styleLine{
+    text-decoration: line-through;
+}
+.imgStyle{
+    padding: 15px;
+    border: 8px solid black;
+    border-radius: 8px;
+}
+.imgStyle:hover{
+    border-color: cornflowerblue;
+}
+.imgStyle2{
+    padding: 10px;
+}
+.imgStyle2:hover{
+    width: 256px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
