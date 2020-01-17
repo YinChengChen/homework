@@ -4,7 +4,7 @@
   <li>homework1. html、css教學練習</li>
   <li>homework2. 優化第一份作業-css運用練習</li>
   <ol>
-    <li>img標簽不具有/img的結尾<li>
+    <li>img標簽不具有/img的結尾</li>
   </ol>
   <li>homework3. 優化第二份作業-css box model練習，padding、margin的使用方式</li>
   <ol>
