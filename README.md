@@ -9,5 +9,6 @@
   <li>homework3. 優化第二份作業-css box model練習，padding、margin的使用方式</li>
   <ol>
     <li>垂直置中的參考 : https://www.oxxostudio.tw/articles/201502/css-vertical-align-7methods.html</li>
+    <li>注意刪除多餘的css未用到樣式，保持程式乾淨</li>
   </ol>
 </ul>
