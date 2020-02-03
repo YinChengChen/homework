@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*****************************Styling Page **********************************/
+.body{
+    font-family: "微軟正黑體", 'Microsoft JhengHei';
+}
+.wrap{
+    width: 1080px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #5C2B64;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-top: 100px;
+    margin-left: 50px;
+    float: left;
+}
+.topmeun{
+    float: right;
+    margin-top: 160px;
+}
+.topmeun li{
+    float: left;
+}
+.topmeun li a{
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    color: #F29779;
+    padding: 15px;
+    text-align: center;
+}
+.topmeun li a:hover{
+    background-color: #F29779;
+    color: #5C2B64;
+    
+}
+.main{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.main p{
+    padding: 15px;
+}
+.meun{
+    width: 230px;
+    margin-right: 10px;
+    float: left;
+    background-color: #BC6892;
+}
+.meun li{
+    padding: 10px 5px 10px 10px;
+}
+.content{
+    width: 710px;
+    float: left;
+    margin-right: 10px;
+    background-color: #F29779;
+}
+.aside{
+    width: 120px;
+    float: left;
+    background-color: #E69E98;
+}
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.footer{
+    padding-top: 50px;
+    background-color: #241533;
+}
+/* color code:
+    241533
+    5C2B64
+    BC6892
+    E69E98
+    F7BC9B
+    F29779
+*/
